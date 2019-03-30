@@ -1,3 +1,8 @@
+/*
+Name : Sanket Vagadiya
+Id : 300991500
+Date March 30, 2019
+*/
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders} from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -11,7 +16,7 @@ export class AuthService {
   user: User;
   private authToken: any;
 
-   private endpoint = 'https://sanketkumar.herokuapp.com/api/';
+    private endpoint = 'https://sanketkumar.herokuapp.com/api/';
   // private endpoint = 'http://localhost:3000/api/';
 
   private httpOptions = {

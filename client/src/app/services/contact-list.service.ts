@@ -1,3 +1,8 @@
+/*
+Name : Sanket Vagadiya
+Id : 300991500
+Date March 30, 2019
+*/
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders} from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -13,9 +18,9 @@ export class ContactListService {
   private user: User;
   private authToken: any = null;
 
-   private endpoint = 'https://sanketkumar.herokuapp.com/api/contact-list/';
+    private endpoint = 'https://sanketkumar.herokuapp.com/api/contact-list/';
 
-  //private endpoint = 'http://localhost:3000/api/contact-list/';
+  // private endpoint = 'http://localhost:3000/api/contact-list/';
 
   private httpOptions = {
     headers: new HttpHeaders({

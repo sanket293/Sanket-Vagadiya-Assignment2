@@ -1,3 +1,8 @@
+/*
+Name : Sanket Vagadiya
+Id : 300991500
+Date March 30, 2019
+*/
 // require modules for our User Model
 let mongoose = require("mongoose");
 let passportLocalMongoose = require("passport-local-mongoose");

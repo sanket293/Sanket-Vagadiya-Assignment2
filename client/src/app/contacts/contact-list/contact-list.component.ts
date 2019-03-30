@@ -1,3 +1,8 @@
+/*
+Name : Sanket Vagadiya
+Id : 300991500
+Date March 30, 2019
+*/
 import { Component, OnInit } from '@angular/core';
 import { ContactListService } from 'src/app/services/contact-list.service';
 import { FlashMessagesService } from 'angular2-flash-messages';

@@ -1,3 +1,8 @@
+/*
+Name : Sanket Vagadiya
+Id : 300991500
+Date March 30, 2019
+*/
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { BasePageComponent } from 'src/app/partials/base-page/base-page.component';
