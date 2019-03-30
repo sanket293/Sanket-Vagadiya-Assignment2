@@ -1,5 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" routerLink="/">COMP308</a>
+  <a routerLink="/">
+    <img class="img-logo" src="/assets/images/logo.png" />
+    </a>
+
   <button
     class="navbar-toggler"
     type="button"
@@ -16,34 +19,32 @@
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
         <a class="nav-link" routerLink="/"
-          ><i class="fas fa-lg fa-igloo"></i> Home
-      </a
-        >
+          ><i class="fas fa-home"></i> Home
+      </a>
+
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/about"
-          ><i class="fa fa-lg fa-info"></i> About</a
-        >
+        <a class="nav-link" routerLink="/about">
+          <i class="fa fa-align-right"></i> About Me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/products"
-          ><i class="fa fa-lg fa-briefcase"></i> Products</a
+        <a class="nav-link" routerLink="/projects"
+          ><i class="fa fa-folder"></i> Projects</a
         >
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="/services"
-          ><i class="fa fa-lg fa-birthday-cake"></i> Services</a
-        >
+          ><i class="fab fa-safari"></i> Services</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="/contact"
-          ><i class="fa fa-lg fa-phone"></i> Contact</a
+          ><i class="fa fa-phone-square"></i> Contact</a
         >
       </li>
 
 
         <li *ngIf="isLoggedIn()" class="navbar-text text-success ml-5 mr-5 d-none d-lg-inline"><i class="fas fa-lg fa-user"></i>
-          Welcome, {{ user.displayName }}</li>
+          Hello, {{ user.displayName }}</li>
 
         <li *ngIf="isLoggedIn()" class="nav-item"><a (click)="onLogoutClick()" routerLink="/logout" class="nav-link">
           <i class="fas fa-lg fa-sign-out-alt"></i> Logout</a></li>
