@@ -9,7 +9,9 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class AboutComponent extends BasePageComponent implements OnInit {
 
-  constructor(route: ActivatedRoute) { super(route);}
+  constructor(route: ActivatedRoute) {
+    super(route)
+  }
 
   ngOnInit() {
   }

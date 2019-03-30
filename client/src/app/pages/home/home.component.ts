@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
 import { BasePageComponent } from 'src/app/partials/base-page/base-page.component';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -9,8 +9,9 @@ import { BasePageComponent } from 'src/app/partials/base-page/base-page.componen
 })
 export class HomeComponent extends BasePageComponent implements OnInit {
 
-  constructor(route: ActivatedRoute) { super(route);}
-
+  constructor(route: ActivatedRoute) {
+    super(route);
+   }
 
   ngOnInit() {
   }
